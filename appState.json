@@ -1,0 +1,99 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "0fca11a8-8d66-4d5c-8e37-5e8452f20d60": {
+        "id": "0fca11a8-8d66-4d5c-8e37-5e8452f20d60",
+        "parent": null,
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "lambda.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast2myapiget",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "openFiles": [
+      "0fca11a8-8d66-4d5c-8e37-5e8452f20d60"
+    ],
+    "currentFileId": "0fca11a8-8d66-4d5c-8e37-5e8452f20d60",
+    "resources": {
+      "apigusEast2myapiget": {
+        "name": "apigusEast2myapiget",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-2",
+          "apiMode": 1,
+          "apiName": "myapi",
+          "apiId": "8facv6bud4",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "5z5yy2ayue",
+          "existingResources": {
+            "/": "5z5yy2ayue"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/",
+          "resourceName": "",
+          "resourceId": "5z5yy2ayue",
+          "restMethod": "GET",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "test",
+          "stageDeploymentId": "zlaait",
+          "mode": 1
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "ohio-indunil-28",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-2",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1582868708985
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "ohio-indunil-28",
+      "url": "https://github.com/Indunil1992/ohio-indunil-28"
+    }
+  }
+}
